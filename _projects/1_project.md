@@ -1,6 +1,6 @@
 ---
 layout: page
-title: project 1
+title: Combination Lock Solver
 description: I built a device to open combination locks.
 img: assets/img/combo_locks.jpg
 importance: 1

@@ -1,8 +1,8 @@
 ---
 layout: page
-title: project 5
-description: a project with a background image
-img: assets/img/1.jpg
+title: Coupled Double Pendulum Simulation and Testing
+description: Created a theoretical model of a double pendulum and compared to measured results
+img: assets/img/double_pend_anim.png
 importance: 3
 category: fun
 ---

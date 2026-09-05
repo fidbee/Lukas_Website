@@ -1,7 +1,7 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image and giscus comments
+title:  RIT Competetive Rocketry Team
+description: Mechanical Design and Analysis for Active Apogee Control (Airbrakes)
 img: assets/img/3.jpg
 importance: 2
 category: work

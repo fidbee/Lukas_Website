@@ -1,8 +1,8 @@
 ---
 layout: page
-title: project 8
-description: an other project with a background image and giscus comments
-img: assets/img/9.jpg
+title: Building a Climbing Wall
+description: Built a new climbing wall and frame to replace an aging one.
+img: assets/img/wall_completed.jpg
 importance: 2
 category: work
 giscus_comments: true

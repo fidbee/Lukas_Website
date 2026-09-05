@@ -1,7 +1,7 @@
 ---
 layout: page
-title: project 4
-description: another without an image
+title: Calorimeter Lift Assist Mechanism
+description: Created a device to assist in lifting a 35lb calorimeter
 img:
 importance: 3
 category: fun

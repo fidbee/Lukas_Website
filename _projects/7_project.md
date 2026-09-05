@@ -1,7 +1,7 @@
 ---
 layout: page
-title: project 7
-description: with background image
+title: Analysis of a 3DOF Mirror Mount
+description: ANSYS and Sigfit were used to predict surface deformations
 img: assets/img/4.jpg
 importance: 1
 category: work

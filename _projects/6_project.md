@@ -1,7 +1,7 @@
 ---
 layout: page
-title: project 6
-description: a project with no image
+title: Automatic Chime Machine
+description: Designed, programmed, and constructed an automatic chime machine
 img:
 importance: 4
 category: fun
