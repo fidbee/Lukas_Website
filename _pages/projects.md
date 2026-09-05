@@ -1,8 +1,8 @@
 ---
 layout: page
-title: projects
+title: Things I've Worked on
 permalink: /projects/
-description: A growing collection of your cool projects.
+description: Various projects I've been a part of over the last few years.
 nav: true
 nav_order: 3
 display_categories: [work, fun]
