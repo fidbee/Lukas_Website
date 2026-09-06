@@ -2,7 +2,7 @@
 layout: page
 title: Calorimeter Lift Assist Mechanism
 description: Created a device to assist in lifting a 35lb calorimeter
-img: assets/img/projects/cal_in_use.png
+img: assets/img/projects/springs_exploded.png
 importance: 3
 category: Laboratory for Laser Energetics
 ---
