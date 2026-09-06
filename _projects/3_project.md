@@ -2,7 +2,7 @@
 layout: page
 title: Characeterizing a MEMS Viscosity Sensor
 description: Design of a test setup and data collection.
-img: assets/img/projects/sensors_in_over.jpg
+img: assets/img/projects/sensors_in_oven.jpg
 #redirect: https://www.wikipedia.org/
 related_publications: true
 importance: 3
