@@ -4,7 +4,7 @@ title: Analysis of a 3DOF Mirror Mount
 description: ANSYS and Sigfit were used to predict surface deformations
 img: assets/img/4.jpg
 importance: 1
-category: work
+category: Laboratory for Laser Energetics
 related_publications: true
 ---
 

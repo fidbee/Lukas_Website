@@ -4,8 +4,8 @@ title:  RIT Competetive Rocketry Team
 description: Mechanical Design and Analysis for Active Apogee Control (Airbrakes)
 img: assets/img/3.jpg
 importance: 2
-category: work
-giscus_comments: true
+category: Other
+giscus_comments: false
 ---
 
 Every project has a beautiful feature showcase page.

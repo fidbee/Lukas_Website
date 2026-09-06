@@ -5,7 +5,7 @@ permalink: /projects/
 description: Various things I've been a part of over the last few years.
 nav: true
 nav_order: 3
-display_categories: [work, fun]
+display_categories: [Laboratory for Laser Energetics, Other]
 horizontal: false
 ---
 

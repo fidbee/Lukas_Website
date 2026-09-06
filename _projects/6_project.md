@@ -4,7 +4,7 @@ title: Automatic Chime Machine
 description: Designed, programmed, and constructed an automatic chime machine
 img:
 importance: 4
-category: fun
+category: Other
 ---
 
 Every project has a beautiful feature showcase page.

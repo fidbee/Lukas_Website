@@ -1,11 +1,12 @@
 ---
 layout: page
 title: Characeterizing a MEMS Viscosity Sensor
-description: MEMS MEMS MEMS
+description: Design of a test setup and data collection.
 img: assets/img/7.jpg
-redirect: https://www.wikipedia.org/
+#redirect: https://www.wikipedia.org/
+related_publications: true
 importance: 3
-category: work
+category: Other
 ---
 
 Every project has a beautiful feature showcase page.

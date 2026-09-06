@@ -4,7 +4,7 @@ title: Coupled Double Pendulum Simulation and Testing
 description: Created a theoretical model of a double pendulum and compared to measured results
 img: assets/img/double_pend_anim.png
 importance: 3
-category: fun
+category: Other
 ---
 
 Every project has a beautiful feature showcase page.
