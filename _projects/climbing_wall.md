@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Building a Climbing Wall
-description: Built a new climbing wall and frame to replace an aging one.
+description: I helped build a new climbing wall and frame to replace an aging one.
 img: assets/img/wall_completed.jpg
 importance: 2
 category: Woodworking
