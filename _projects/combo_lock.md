@@ -2,7 +2,7 @@
 layout: page
 title: Combination Lock Solver
 description: I built a device to open combination locks.
-img: assets/img/combo_locks.jpg
+img: assets/img/projects/combo_locks.jpg
 importance: 1
 category: Other
 related_publications: false

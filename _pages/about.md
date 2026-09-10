@@ -8,6 +8,7 @@ profile:
   align: right
   image: prof_pic.jpg
   image_circular: true # crops the image to make it circular
+  image_width: 300px
   more_info: >
     Rochester, NY
     janderlukas@gmail.com

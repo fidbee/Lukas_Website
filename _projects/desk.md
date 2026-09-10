@@ -3,7 +3,7 @@ layout: page
 title: Wooden Desk
 description: I built a desk during COVID lockdown
 img: assets/img/1.jpg
-importance: 1
+importance: 2
 category: Woodworking
 related_publications: false
 ---
