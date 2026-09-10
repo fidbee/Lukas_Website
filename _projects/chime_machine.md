@@ -26,7 +26,3 @@ Made a chime machine
 <div class="caption">
     Animation of Chime Machine
 </div>
-
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-
