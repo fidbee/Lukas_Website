@@ -66,5 +66,5 @@ nav_order: 4
     </div>
 </div>
 <div class="caption">
-    Strawberry mead I brewed in my second year of college. It didn't taste very good.
+    Strawberry mead I brewed in college. It didn't taste very good.
 </div>
