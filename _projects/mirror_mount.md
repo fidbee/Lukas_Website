@@ -21,17 +21,22 @@ During my last block at the Laboratory for Laser Energetics, I was tasked with t
 
 I decided to go with a bipod rod flexure based design to hold the back of the mirror. The six thin flexures act as single force members to constrain the six degrees of freedom and avoid overconstraint. Because of the flexibility of the flexures, small locational innacuracies in mounting points do not cause significant deformation of the optical surface. One end of each flexure is threaded into the mirror while the other is epoxied in place at its mounting point. A custom fixture was developed to hold the mirror in its neutral state while the epoxy cured. This minimized any pre-stress that might be imposed on the mirror during assembly. 
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/projects/mirror_mount/rigid_body_subtraction.jpg" title="rigid_body_subtraction" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
+<div class="row">
+    <<div class="col-sm-4 mt-3 mt-md-0">
         {% include figure.liquid path="assets/img/projects/mirror_mount/solid_vs_beam.jpg" title="solid_vsbeam" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Left: ANSYS was used to simulate load cases and Sigfit was used to isolate the optical surface and subtract rigid body motion.
-    Right: I used beam elements to simulate flexure behaviour in ANSYS. This saved tens of thousands of elemnts and allowed much faster design iteration at nearly identical performance. Being able to change the flexure diameter without remeshing the entire model was key here.
+    I used beam elements to simulate flexure behaviour in ANSYS. This saved tens of thousands of elemnts and allowed much faster design iteration at nearly identical performance. Being able to change the flexure diameter without remeshing the entire model was key here.
+</div>
+
+<div class="row">
+    <div class="col-sm-8 mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/projects/mirror_mount/rigid_body_subtraction.jpg" title="rigid_body_subtraction" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    ANSYS was used to simulate load cases and Sigfit was used to isolate the optical surface and subtract rigid body motion.
 </div>
 
 To determine flexure material, dimensions and mounting locations, I ran several parametric studies in ANSYS + Sigfit. In this case, I was looking at the surface deformation due to 1g lateral gravity sag. I exported ANSYS nodal results to a program called Sigfit to subtract rigid body motion and isolate the deformation on the optical surface. Surface RMS was used as a metric to compare different combinations of parameters for optical performance. By simulating dozens of combinations of radial mount spacing, flexure material, and flexure diameter, I arrived at a design that minimized surface deformation while still adequately supporting the mirror. 
@@ -76,7 +81,7 @@ The design of the entire assembly was looked at in a variety of load cases. The 
     </div>
 </div>
 <div class="caption">
-    Left: Animation showing the different displacements applied to each mounting point to simulate flatness tolerancing. Displacement magnitude is exaggerated. Load steps are applied sequentially but are interpolated for animation purposes.
+    Left: Animation showing the different displacements applied to each mounting point to simulate flatness tolerancing. Displacement magnitude is exaggerated. Load steps are applied sequentially but are interpolated for animation purposes. <br>
     Right: Animation showing the simulated optical surface through a range of coplanarity (displacement in z) values. A normal distribution of thousands of these deformations were generated and summed to obtain Monte Carlo results.
 </div>
 
@@ -102,4 +107,30 @@ A normal distribution was assumed for each displacement and thousands of differe
     The probability that a given surface RMS can be achieved given an input set of disturbances. Blue represents the flexure based design while orange represents a rigid plate bolted to the back of the mirror. The tens of microns RMS with the rigid plate would not be acceptable while the sub-micron accuracy of the flexures is acceptable at this wavelength. Note the log scale.
 </div>
 
-Overall this was my favorite project I had the chance to work on at LLE. I greatly expanded my knowledge of FEA techniques and how they can be combined with optical software to translate between mechanical and optical requirements. While there are certainly things I would do differently if I were starting from scratch, I'm happy with how the design turned out and excited to get an update on its performance once manufacturing and assembly are complete.
+Overall this was my favorite project I had the chance to work on at LLE. I greatly expanded my knowledge of FEA techniques and how they can be combined with optical software to translate between mechanical and optical requirements. While there are certainly things I would do differently if I were starting from scratch, I'm happy with how the design turned out and excited to get an update on its performance once manufacturing and assembly are complete. Below are a few additional pictures.
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/projects/mirror_mount/allignment_feature.jpg" title="allignment_feature" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/projects/mirror_mount/assembly_fixture.jpg" title="assembly_fixture" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Left: Two different inserts were used for allignment of the mirror using a low power beam. These proved to be very difficult to tolerance to get appropriate pointing accuracy. <br>
+    Right: The assembly fixture for epoxying flexures in place involved a wiffle tree structure to minimize stresses placed on the mirror. The fixture is bolted to an optical table during curing.
+</div>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/projects/mirror_mount/epoxy_test.jpg" title="epoxy_test" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/projects/mirror_mount/epoxy_test.jpg" title="epoxy_test" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Scrap parts used to test different types of epoxy, venting holes, and setups.
+</div>
+

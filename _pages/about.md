@@ -27,4 +27,4 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Hello! I'm Lukas and I'm a 5th year ('27) mechanical engineering student at RIT. This website showcases some projects that I've worked on over the last few years as well as a little bit about me. Feel free to reach out if you have any questions!
+Hello! I'm Lukas and I'm a 5th year ('27) mechanical engineering student at RIT. I'm from Ithaca, NY but have also spent time living in Jena & Berlin, Germany. This website showcases some projects that I've worked on over the last few years as well as a little bit about me. Feel free to reach out if you have any questions!
