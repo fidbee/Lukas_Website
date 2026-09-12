@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Analysis of a 3DOF Mirror Mount
-description: ANSYS and Sigfit were used to predict surface deformations
+title: Design and analysis of a 3DOF Mirror Mount
 img: assets/img/projects/mirror_mount_full.png
+description: Evaluated optical performance of an elliptical mirror through extensive simulation.
 importance: 1
 category: Laboratory for Laser Energetics
 related_publications: false
@@ -22,7 +22,7 @@ During my last block at the Laboratory for Laser Energetics, I was tasked with t
 I decided to go with a bipod rod flexure based design to hold the back of the mirror. The six thin flexures act as single force members to constrain the six degrees of freedom and avoid overconstraint. Because of the flexibility of the flexures, small locational innacuracies in mounting points do not cause significant deformation of the optical surface. One end of each flexure is threaded into the mirror while the other is epoxied in place at its mounting point. A custom fixture was developed to hold the mirror in its neutral state while the epoxy cured. This minimized any pre-stress that might be imposed on the mirror during assembly. 
 
 <div class="row">
-    <<div class="col-sm-4 mt-3 mt-md-0">
+    <<div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid path="assets/img/projects/mirror_mount/solid_vs_beam.jpg" title="solid_vsbeam" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
@@ -31,7 +31,7 @@ I decided to go with a bipod rod flexure based design to hold the back of the mi
 </div>
 
 <div class="row">
-    <div class="col-sm-8 mt-3 mt-md-0">
+    <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid path="assets/img/projects/mirror_mount/rigid_body_subtraction.jpg" title="rigid_body_subtraction" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
@@ -74,10 +74,10 @@ The design of the entire assembly was looked at in a variety of load cases. The 
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/projects/mirror_mount/surface_deformation_animation.gif" title="surface_deformation_animation" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/projects/mirror_mount/mount_displacement_animation.gif" title="mount_displacement_animation" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/projects/mirror_mount/mount_displacement_animation.gif" title="mount_displacement_animation" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/projects/mirror_mount/surface_deformation_animation.gif" title="surface_deformation_animation" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -114,7 +114,7 @@ Overall this was my favorite project I had the chance to work on at LLE. I great
         {% include figure.liquid loading="eager" path="assets/img/projects/mirror_mount/allignment_feature.jpg" title="allignment_feature" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/projects/mirror_mount/assembly_fixture.jpg" title="assembly_fixture" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/projects/mirror_mount/assembly_fixture.png" title="assembly_fixture" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -124,7 +124,7 @@ Overall this was my favorite project I had the chance to work on at LLE. I great
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/projects/mirror_mount/epoxy_test.jpg" title="epoxy_test" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/projects/mirror_mount/epoxy_test_2.jpg" title="epoxy_test_2" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/projects/mirror_mount/epoxy_test.jpg" title="epoxy_test" class="img-fluid rounded z-depth-1" %}
