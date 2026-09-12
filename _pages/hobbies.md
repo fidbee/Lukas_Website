@@ -39,7 +39,7 @@ nav_order: 4
     </div>
 </div>
 <div class="caption">
-    Me and my friend after finishing a 105mi loop around Cayuga Lake as part of the AIDS ride for life fundraiser. I've done this ride 3 times now!
+    Me and my friend after finishing a 105mi loop around Cayuga Lake as part of the AIDS Ride for Life fundraiser. I've done this ride 3 times now!
 </div>
 
 <div class="row">
