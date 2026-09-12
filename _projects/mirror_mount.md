@@ -21,18 +21,17 @@ During my last block at the Laboratory for Laser Energetics, I was tasked with t
 
 I decided to go with a bipod rod flexure based design to hold the back of the mirror. The six thin flexures act as single force members to constrain the six degrees of freedom and avoid overconstraint. Because of the flexibility of the flexures, small locational innacuracies in mounting points do not cause significant deformation of the optical surface. One end of each flexure is threaded into the mirror while the other is epoxied in place at its mounting point. A custom fixture was developed to hold the mirror in its neutral state while the epoxy cured. This minimized any pre-stress that might be imposed on the mirror during assembly. 
 
-ANSYS IMAGES
-BEAM ELEMENT FLEXURES AND SIGFIT RESULTS
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/projects/mirror_mount/rigid_body_subtraction.jpg" title="rigid_body_subtraction" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/projects/mirror_mount/solid_vs_beam.jpg" title="solid_vsbeam" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
+    Left: ANSYS was used to simulate load cases and Sigfit was used to isolate the optical surface and subtract rigid body motion.
+    Right: I used beam elements to simulate flexure behaviour in ANSYS. This saved tens of thousands of elemnts and allowed much faster design iteration at nearly identical performance. Being able to change the flexure diameter without remeshing the entire model was key here.
 </div>
 
 To determine flexure material, dimensions and mounting locations, I ran several parametric studies in ANSYS + Sigfit. In this case, I was looking at the surface deformation due to 1g lateral gravity sag. I exported ANSYS nodal results to a program called Sigfit to subtract rigid body motion and isolate the deformation on the optical surface. Surface RMS was used as a metric to compare different combinations of parameters for optical performance. By simulating dozens of combinations of radial mount spacing, flexure material, and flexure diameter, I arrived at a design that minimized surface deformation while still adequately supporting the mirror. 
@@ -54,7 +53,7 @@ Instead of a traiditional cone, vee, flat kinematic mount, I again went with a f
     </div>
 </div>
 <div class="caption">
-    The general workflow I used in this project.
+    The general workflow used in this project.
 </div>
 
 <div class="row">
@@ -70,6 +69,21 @@ The design of the entire assembly was looked at in a variety of load cases. The 
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/projects/mirror_mount/surface_deformation_animation.gif" title="surface_deformation_animation" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/projects/mirror_mount/mount_displacement_animation.gif" title="mount_displacement_animation" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Left: Animation showing the different displacements applied to each mounting point to simulate flatness tolerancing. Displacement magnitude is exaggerated. Load steps are applied sequentially but are interpolated for animation purposes.
+    Right: Animation showing the simulated optical surface through a range of coplanarity (displacement in z) values. A normal distribution of thousands of these deformations were generated and summed to obtain Monte Carlo results.
+</div>
+
+The sensitivity of dimensions on the flexured mount were analyzed using ANSYS + Sigfit Monte Carlo toolbox. Small displacements were applied to each mounting point and the impact on the optical surface was analyzed. Because the displacements at this scale were assumed to be linear, different combinations of mounting point errors can be summed to determine their combined effect. Sigfit automates this process and can provide several performance metrics.
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/projects/mirror_mount/all_disturbances.jpg" title="all_disturbances" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
@@ -77,18 +91,7 @@ The design of the entire assembly was looked at in a variety of load cases. The 
     Different disturbances were applied to each mounting point to simulate the flatness of the mounting components. Rotation about the X axis has by far the largest impact. This is expected when considering the geometry of the flexures and the axes in which it is stiff and flexible.
 </div>
 
-The sensitivity of dimensions on the flexured mount were analyzed using ANSYS + Sigfit Monte Carlo toolbox. Small displacements were applied to each mounting point and the impact on the optical surface was analyzed. Because the displacements at this scale were assumed to be linear, different combinations of mounting point error can be summed to determine their combined effect. Sigfit automates this process and can provide several performance metrics.
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/projects/mirror_mount/surface_deformation_animation.gif" title="surface_deformation_animation" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Animation showing the simulated optical surface through a range of coplanarity (displacement in z) values. A normal distribution of thousands of these deformations were generated and summed to obtain Monte Carlo results.
-</div>
-
-A normal distribution was assumed for each displacement and thousands of different combinations of displacements were summed. The optical surface RMS was then extracted from each simulation and graphed below. This shows us the probability that a certain surface RMS can be achieved based on the flatness and locational tolerance of the flexure mounting points. It shows that the flexured design is behaving as expected; where small locational innacuracies do not contribute significantly to surface deformation. As a point of comparison, I ran the same simulation except without the flexures. This is akin to just bolting a rigid plate to the back of the mirror. As expected, the surface deformations are orders of magnitude higher if you were to go with this approach.
+A normal distribution was assumed for each displacement and thousands of different combinations of displacements were summed. The optical surface RMS was then extracted from each simulation and graphed below. This shows us the probability that a certain surface RMS can be achieved based on the flatness and locational tolerance of the flexure mounting points. It demonstrates that the flexured design is behaving as expected; where small locational innacuracies do not contribute significantly to surface deformation. As a point of comparison, I also ran the same simulation except without the flexures. This is akin to just bolting a rigid plate to the back of the mirror. As expected, the surface deformations are orders of magnitude higher if you were to go with this approach.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">

@@ -28,6 +28,13 @@ After taking down and discarding all previous panels and structure, we got to wo
 
 We had about 575 ft<2> of wall to cover and we spent several weeks cutting, sanding, and coating the panels. Each panel had a unique shape to accomodate the geometry of the wall and ensure a good fit. Additionally, each panel needed several dozen T-nuts installed to attach climbing holds to the wall. This was by far the longest and most labor intensive part of the project.
 
-FINAL RESULT
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/projects/wall_completed.jpg" title="wall_completed" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Completed wall
+</div>
 
 With a couple of finishing touches to remove sharp corners, we began assembling the wall. After a few slight tweaks in the panel geometry, we finished just in time for the start of the fall semester.
