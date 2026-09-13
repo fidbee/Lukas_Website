@@ -14,7 +14,12 @@ While there are approaches to lock solving in which you can feel out the first t
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include video.liquid path="https://www.youtube.com/embed/Nxkj5G0dqsM" class="img-fluid rounded z-depth-1" %}
+        <div style="max-width: 400px; margin: auto;">
+            {% include video.liquid 
+            path="https://www.youtube.com/embed/Nxkj5G0dqsM" 
+            class="rounded z-depth-1"
+            %}
+         </div>
     </div>
 </div>
 <div class="caption">
