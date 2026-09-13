@@ -22,7 +22,7 @@ During my last block at the Laboratory for Laser Energetics, I was tasked with t
 I decided to go with a bipod rod flexure based design to hold the back of the mirror. The six thin flexures act as single force members to constrain the six degrees of freedom and avoid overconstraint. Because of the flexibility of the flexures, small locational innacuracies in mounting points do not cause significant deformation of the optical surface. One end of each flexure is threaded into the mirror while the other is epoxied in place at its mounting point. A custom fixture was developed to hold the mirror in its neutral state while the epoxy cured. This minimized any pre-stress that might be imposed on the mirror during assembly. 
 
 <div class="row">
-    <<div class="col-sm mt-3 mt-md-0">
+    <<div class="col-md-4 mt-3 mt-md-0">
         {% include figure.liquid path="assets/img/projects/mirror_mount/solid_vs_beam.jpg" title="solid_vsbeam" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
