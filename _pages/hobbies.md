@@ -17,15 +17,6 @@ nav_order: 4
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/hobbies/climbing_thacher.jpg" title="climbing_thacher" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Rock climbing at Thacher State Park near Albany
-</div>
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/hobbies/peru_gatorade_lake.jpg" title="peru_gatorade_lake" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
@@ -44,11 +35,29 @@ nav_order: 4
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/hobbies/climbing_thacher.jpg" title="climbing_thacher" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Rock climbing at Thacher State Park near Albany
+</div>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/hobbies/waterfall_rappel.jpg" title="waterfall_rappel" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Rappeling down a 100+ foot waterfall in California.
+    Rappeling down a 100+ foot waterfall in California
+</div>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/hobbies/bike_trip_2022.jpg" title="devin_belgrade" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    I biked ~600km from Bratislava, Slovakia to Belgrade, Serbia after graduating high school
 </div>
 
 <div class="row">
@@ -57,7 +66,43 @@ nav_order: 4
     </div>
 </div>
 <div class="caption">
-    Hiking in the Dolomites with my brother.
+    Hiking in the Dolomites with my brother
+</div>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/hobbies/caving.jpg" title="caving" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Crawling through Knox Cave in eastern New York
+</div>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/hobbies/via_ferrata.jpg" title="via_ferrata" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    I hiked a couple of via ferratas in the Dolomites
+</div>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/hobbies/avalanche_pass.jpg" title="avalanche_pass" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Hiking through avalanche pass after climbing Mt. Marcy (tallest peak in NY)
+</div>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/hobbies/irish_coastline.jpg" title="irish_coastline" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Beautiful hike along the Irish coast north of Dublin
 </div>
 
 <div class="row">
