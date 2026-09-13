@@ -57,7 +57,7 @@ nav_order: 4
     </div>
 </div>
 <div class="caption">
-    I biked ~600km from Bratislava, Slovakia to Belgrade, Serbia after graduating high school
+    I biked ~600km from Bratislava (Slovakia) to Belgrade (Serbia) after graduating high school
 </div>
 
 <div class="row">
