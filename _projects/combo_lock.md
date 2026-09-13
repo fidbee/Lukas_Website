@@ -10,12 +10,12 @@ related_publications: false
 
 Growing up, combination locks in our household would slowly pile up as their combinations were forgotten. Since high school, I had the idea of building a small machine to solve these and recover these locks. I applied to the Dick and St Jane Reeve Student Initiated Project fund at RIT and got selected to receive funding to complete this project.
 
-While there are approaches to lock solving in which you can feel out the first two numbers and guess the last, I found these to be difficult and inconsistent. I wanted my device to open the lock with no user intervention. Originally, I thought that with 40 numbers, there would be 40<sup>3 (64,000) combinations. Luckily this isn't the case. Because of machining tolerance and other factors, there are actually only 4,000 possible combinations for Masterlocks. There's even about a +/-1 window for hitting the correct number when you solve. This made brute forcing every combination a viable approach
+While there are approaches to lock solving in which you can feel out the first two numbers and guess the last, I found these to be difficult and inconsistent. I wanted my device to open the lock with no user intervention. Originally, I thought that with 40 numbers, there would be 40<sup>3</sup> (64,000) combinations. Luckily this isn't the case. Because of machining tolerance and other factors, there are actually only 4,000 possible combinations for Masterlocks. There's even about a +/-1 window for hitting the correct number when you solve. This made brute forcing every combination a viable approach
 
-<div class="embed-responsive embed-responsive-16by9">
-  <iframe class="embed-responsive-item"
-          src="https://youtu.be/Nxkj5G0dqsM"
-          allowfullscreen></iframe>
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include video.liquid path="https://www.youtube.com/watch?v=Nxkj5G0dqsM" class="img-fluid rounded z-depth-1" %}
+    </div>
 </div>
 <div class="caption">
     This shows the device working for the first time. This run took about 20 minutes to solve, but it could take up to ~40 if you're unlucky.
