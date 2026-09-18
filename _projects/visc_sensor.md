@@ -12,7 +12,7 @@ During my first summer at RIT I did research in the lab of Dr. Ivan Puchades at 
 
 FILTERING CIRCUIT AND BETTER RESULTS
 
-I made two major improvements to the test setup. The first was the creation of a circuit to filter and amplify the output signal. 
+I made two major improvements to the test setup. The first was the design of a cricuit to filter and amplify the output signal. This removed a lot of the noise in the 
 
 SENSOR IN AIR + GRAPH OF DATA
 <div class="row">
@@ -27,7 +27,9 @@ SENSOR IN AIR + GRAPH OF DATA
     This image can also have a caption. It's like magic.
 </div>
 
-In order to measure the performance of the sensors at varying levels of viscosity, the temperature of the fluids was changed. However, this change in temperature also affects the performance of the sensor for other reasons. Thus, the temperature effect on the sensor had to first be subtracted out. To do this, the sensors were first tested in air as temperature changed. Because the viscosity of air does not change much with temperature, this isolates only the temperature effects on the sensor. The sensor was strapped to a heat sink to decrease noise and provide more consistent readings. From here, the percent change in FFT frequency per °C was calculated and used to adjust our viscosity data as temperature changed
+In order to measure the performance of the sensors at varying levels of viscosity, the temperature of the fluids was changed. However, this change in temperature also affects the performance of the sensor for other reasons. Thus, the temperature effect on the sensor had to first be subtracted out. To do this, the sensors were first tested in air as temperature changed. Because the viscosity of air does not change much with temperature, this isolates only the temperature effects on the sensor. The sensor was strapped to a heat sink to decrease noise and provide more consistent readings. From here, the percent change in FFT frequency per °C was calculated and used to adjust our viscosity data as temperature changed.
+
+
 
 
 

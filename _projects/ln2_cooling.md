@@ -109,7 +109,7 @@ ANSYS THERMAL SS AND TRANSIENT COOLDOWN
 
 Overall the new model has much stronger correlation with the experimental data. It accurately captured the transient cooldown and was within ~3K during the steady state portion. There are many areas to improve here is what I thought would be most significant: <br>
 
-1. Modeling of changing LN<sub>2</sub> level: I think this is the biggest source of error. In the experimental data, the "steady state" varies by several degrees as the LN<sub>2</sub> evaporates. I think I could've taken more experimental data and made the 77K LN<sub>2</sub> boundary condition a parameter in the simulation that varies over time to more accurately capture the steady state. <br>
+1. Modeling of changing LN<sub>2</sub> level: I think this is the biggest source of error. In the experimental data, the steady state varies by several degrees as the LN<sub>2</sub> evaporates. I think I could've taken more experimental data and made the 77K LN<sub>2</sub> boundary condition a parameter in the simulation that varies over time to more accurately capture the steady state. <br>
 2. More accurate fill level: Even when used in the lab, the LN<sub>2</sub> is just filled to a Kapton tape line in the dewar. This is a big source of variation between trials. <br>
 3. Bonded thermal contact assumption: Clamping indium between copper is a very strong thermal conductor, but I still think that there is non-negligible contact resistance here. This is a value that could be measured or tweaked in the model to get a more accurate simulation. <br>
 
