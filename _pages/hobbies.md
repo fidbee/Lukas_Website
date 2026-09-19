@@ -84,7 +84,7 @@ nav_order: 4
     </div>
 </div>
 <div class="caption">
-    I hiked a couple of via ferratas in the Dolomites
+    Traversing across a via ferrata in the Dolomites
 </div>
 
 <div class="row">
