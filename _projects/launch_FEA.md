@@ -2,7 +2,7 @@
 layout: page
 title:  FEA of an Apogee Control System
 description: Structural analysis of airbrakes system during various stages of flight
-img: assets/img/projects/launch/just_airbrakes.jpg
+img: assets/img/projects/launch/fea_thumbnail.jpg
 importance: 2
 category: RIT Competetive Rocketry Team
 giscus_comments: false

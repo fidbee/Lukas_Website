@@ -50,7 +50,7 @@ The two bar linkage system shown above was simulated in order to select an appro
     </div>
 </div>
 <div class="caption">
-    Left: Visualization of every linkage combination and mounting point simulated. <br>
+    Left: Visualization of every linkage combination and mounting point simulated. The white space on the right is due to the ommission of combinations that approach infinite torque requirements. <br>
     Right: Torque required at each combination of linkage length. There's a third dimension to this representing the mounting point location on the leaflet (d3) but it's not shown for visual clutter.
 </div>
 
@@ -61,7 +61,7 @@ With an equation to relate the drag of the leaflets to the required servo torque
         {% include figure.liquid loading="eager" path="assets/img/projects/launch/risk_launch.png" title="risk_launch" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/projects/launch/airbrakes-and_electronics.jpg" title="airbrakes-and_electronics" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/projects/launch/airbrakes_and_electronics.jpg" title="airbrakes_and_electronics" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
