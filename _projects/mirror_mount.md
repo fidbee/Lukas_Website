@@ -8,7 +8,7 @@ category: Laboratory for Laser Energetics
 related_publications: false
 ---
 
-During my last block at the Laboratory for Laser Energetics, I was tasked with the design and analysis of a 3DOF mirror mount for a lightweight, off-axis, elliptical, THz mirror. Upstream optics could control another 2DOF. While the design of the mirror itself was mostly fixed in the state a previous employee left it in, I had a lot of freedom in how I could accurately hold and manipulate this experimental mirror. Inspiration for this design and some of the corresponding analysis came from: (BLUE BOOK). Feel free to email me for any questions and more detailed presentations.
+During my last block at the Laboratory for Laser Energetics, I was tasked with the design and analysis of a 3DOF mirror mount for a lightweight, off-axis, elliptical, THz mirror. Upstream optics could control another 2DOF. While the design of the mirror itself was mostly fixed in the state a previous employee left it in, I had a lot of freedom in how I could accurately hold and manipulate this experimental mirror. Inspiration for this design and some of the corresponding analysis came from: [Integrated Optomechanical Analysis (2nd Ed.)](https://www.spiedigitallibrary.org/ebooks/PM/Integrated-Optomechanical-Analysis-Second-Edition/eISBN-9780819492494/10.1117/3.974624). Feel free to email me for any questions and more detailed presentations.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -22,7 +22,7 @@ During my last block at the Laboratory for Laser Energetics, I was tasked with t
 I decided to go with a bipod rod flexure based design to hold the back of the mirror. The six thin flexures act as single force members to constrain the six degrees of freedom and avoid overconstraint. Because of the flexibility of the flexures, small locational innacuracies in mounting points do not cause significant deformation of the optical surface. One end of each flexure is threaded into the mirror while the other is epoxied in place at its mounting point. A custom fixture was developed to hold the mirror in its neutral state while the epoxy cured. This minimized any pre-stress that might be imposed on the mirror during assembly. 
 
 <div class="row">
-    <<div class="col-md-4 mt-3 mt-md-0">
+    <<div class="col-md-4 mt-3 mt-md-0 mx-auto">
         {% include figure.liquid path="assets/img/projects/mirror_mount/solid_vs_beam.jpg" title="solid_vsbeam" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
@@ -100,7 +100,7 @@ A normal distribution was assumed for each displacement and thousands of differe
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/projects/mirror_mount/RMS_probability.jpg" title="RMS_probability" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/projects/mirror_mount/RMS_probability.png" title="RMS_probability" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">

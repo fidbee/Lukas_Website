@@ -3,12 +3,12 @@ layout: page
 title: Characeterizing a MEMS Viscosity Sensor
 description: Design of a test setup and data collection.
 img: assets/img/projects/visc_sensor/sensors_in_oven.jpg
-related_publications: true
+related_publications: false
 importance: 3
 category: Other
 ---
 
-During my first summer at RIT I did research in the lab of Dr. Ivan Puchades at RIT. My project focussed on characterizing the sensitivity of existing MEMS viscometers. These sensors could provide a much more compact and portable measurement compared to traditional viscometers. This project involved the creation of a new test setup to improve signal quality as well as the testing of five different types of sensors at various viscosities to characterize their performance.
+During my first summer at RIT I did research in the lab of Dr. Ivan Puchades at RIT. My project focussed on characterizing the sensitivity of existing MEMS viscometers. These sensors could provide a much more compact and portable measurement compared to traditional viscometers. This project involved the creation of a new test setup to improve signal quality as well as the testing of five different types of sensors at various viscosities to characterize their performance. Some of the data I took on my new setup was also used in a [published paper](https://www.researchgate.net/publication/377943706_Waterproofing_a_Thermally_Actuated_Vibrational_MEMS_Viscosity_Sensor).
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -41,15 +41,6 @@ The sensors are actuated by a central heater controlled by pulses from a wavefor
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/projects/visc_sensor/improved_signal.jpg" title="improved_signal" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Improvement in the consistency of data output on the improved setup
-</div>
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/projects/visc_sensor/new_setup.jpg" title="new_setup" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
@@ -68,10 +59,10 @@ I made two major improvements to the test setup. The first was the design of a c
     </div>
 </div>
 <div class="caption">
-    Sensors were first testedin air to remove the temperature affect on performance.
+    Sensors were first tested in air to remove the temperature affect on performance.
 </div>
 
-In order to measure the performance of the sensors at varying levels of viscosity, the temperature of the fluids was changed in a lab oven. However, this change in temperature also affects the performance of the sensor for other reasons. Thus, this temperature effect on the sensor had to first be subtracted out. The sensors were first tested in air as temperature changed. Because the viscosity of air does not change much with temperature, this isolates only the temperature effects on the sensor. The sensor was strapped to a heat sink to decrease noise and provide more consistent readings. From here, the percent change in FFT frequency per °C was calculated and used to adjust our viscosity data as temperature changed.
+In order to measure the performance of the sensors at varying levels of viscosity, the temperature of various oils was changed in a lab oven. These oils have a predicatable temperature to viscosity relationship. However, this change in temperature also affects the performance of the sensor for other reasons. Thus, this temperature effect on the sensor had to first be subtracted out. The sensors were first tested in air as temperature changed. Because the viscosity of air does not change much with temperature, this isolates only the temperature effects on the sensor. The sensor was strapped to a heat sink to decrease noise and provide more consistent readings. From here, the percent change in FFT frequency per °C was calculated and used to adjust our viscosity data as temperature changed.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">

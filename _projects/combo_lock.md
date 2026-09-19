@@ -26,7 +26,7 @@ While there are approaches to lock solving in which you can feel out the first t
     This shows the device working for the first time. This run took about 20 minutes to solve, but it could take up to ~40 if you're unlucky.
 </div>
 
-THe design of the mechanism was not too complicated. A stepper motor (w/ a # of steps that's a multiple of 40) provides very repeatable and fast positional motion. I measured the force needed to open the lock and used an electric solenoid to pull the shackle after each attempt. The original idea of simply applying a constant force on the shackle the whole time didn't work because the lock would jam. An IR beam break sensor was tripped if the lock ever got opened. Interfacing with the lock was also surprisingly easy; it only took a few test 3D prints to get a firm connection that didn't slip. One side interfaces with a modified pulley spline and the other on the lock.
+The design of the mechanism was not too complicated. A stepper motor (w/ a # of steps that's a multiple of 40) provides very repeatable and fast positional motion. I measured the force needed to open the lock and used an electric solenoid to pull the shackle after each attempt. The original idea of simply applying a constant force on the shackle the whole time didn't work because the lock would jam. An IR beam break sensor was tripped if the lock ever got opened. Interfacing with the lock was also surprisingly easy; it only took a few test 3D prints to get a firm connection that didn't slip. One side interfaces with a modified pulley spline and the other on the lock.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -37,7 +37,7 @@ THe design of the mechanism was not too complicated. A stepper motor (w/ a # of 
     Current approach to attempting combinations.
 </div>
 
-There were some interesting challenges when programming the mechanism. It turned out that my Arduino did not have enough storage to store all 4000 combinations of 3 numbers, even when taking steps to optimize how the data was stored. I instead had to generate and overwrite the sequence as it was solving. The approach I went with of locking in the first two numbers and then trying all 10 possible third numbers was effective given the circumstances. If I had a larger processor, I would like to try to find the optimal order to solve a lock to minimze the motion needed. Specifically, there are situations where you don't have to do a full 3 rotations to reset.
+There were some interesting challenges when programming the mechanism. It turned out that my Arduino did not have enough storage to store all 4000 combinations of 3 numbers, even when taking steps to optimize how the data was stored. I instead had to generate and overwrite the sequence as it was solving. The approach I went with of locking in the first two numbers and then trying all 10 possible third numbers was effective given the circumstances. If I had a larger processor, I would like to try to find the optimal order to solve a lock to minimze the motion needed. Specifically, there are situations where you don't have to do a full 3 rotations to reset. I think identifying those situations and choosing the correct order to solve combinations with less rotation first would be a pretty interesting challenge.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
