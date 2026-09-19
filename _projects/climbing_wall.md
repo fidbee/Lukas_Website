@@ -7,7 +7,7 @@ importance: 1
 category: Woodworking
 ---
 
-I spent a couple of weeks over a summer rebuilding an unsafe aging climbing wall with two of my coworkers at the climbing gym. Panels were deflecting several inches when people hung on them and the wood was beginning to splinter. After taking off all of the panels, it was clear that the entire structure supporting the wall would have to be replaced, not just the panels.
+I spent a couple of weeks during a summer in Rochester rebuilding an unsafe aging climbing wall with two of my coworkers at the climbing gym. The panels were deflecting several inches when people hung on them and the wood was beginning to splinter. After taking off all of the panels, it was clear that the entire structure supporting the wall would also have to be replaced, not just the panels.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -27,7 +27,7 @@ I spent a couple of weeks over a summer rebuilding an unsafe aging climbing wall
     Taking down the old wall
 </div>
 
-After taking down and discarding all previous panels and structure, we got to work on rebuilding the frame. A similar design was used, with a couple of small changes in the angle of the wall. At this point we also contacted the manager of a local climbing wall who has built several climbing walls. He provided a lot of insight at this stage for how to safely construct the supporting structure. With his help constructing the frame, we were ready to start making the panels.
+After taking down and discarding all previous panels and structure, we got to work on rebuilding the frame. A similar design was used, with a couple of small changes in the angle of the wall. At this point we also contacted the manager of a local climbing gym who has built several climbing walls. He provided a lot of insight at this stage for how to safely construct the supporting structure. With his help constructing the frame, we were ready to start making the panels.
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">

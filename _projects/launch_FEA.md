@@ -21,7 +21,7 @@ To verify the structural integrity of the airbrakes control system, FEA was perf
     FEA setup during the maximum extension load case
 </div>
 
-This setup essentially has every force at its worst case scenario. The leaftlets are extended all the way out, the servo is pushing with its maximum torque, and the springs are fully extended. The system is constrained by the bulkhead epoxied in place on our booster tube. The bearings were modeled as generic joints with the appropriate degrees of freedom constrained/free.
+This setup essentially has every force at its worst case scenario. The leaftlets are extended all the way out, the servo is pushing with its maximum torque, and the springs are fully extended. The system is constrained by the bulkhead epoxied in place on the booster tube. The carriage extension is constrained by two delrin hard stops (not seen here). The bearings were modeled as generic joints with the appropriate degrees of freedom constrained/free.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -29,10 +29,10 @@ This setup essentially has every force at its worst case scenario. The leaftlets
     </div>
 </div>
 <div class="caption">
-    Example showing how 1D beam elements are scoped
+    Example showing how 1D beam elements are scoped (not directly from this simulation)
 </div>
 
-The system's hardware was simulated as 1D beam elements, with material and diameter of the bolt assigned to each element. Given the slender aspect ratio of the bolts, this is an adequate assumption for our applications. This significantly reduced computation time compared to the fine mesh and contacts needed when simulating an entire bolt and allowed for faster design iteration. The force vectors at each end of the 1D beam element were probed and exported in tabular format. These were then put into a spreadsheet that estimated the stress in each bolt with a couple of hand calculations. Given the massive factors of safety seen on these bolts (>20), it wasn't necessary to simulate the complete hardware.
+The system's hardware was simulated as 1D beam elements, with material and diameter of the bolt assigned to each element. Given the slender aspect ratio of the bolts, this is an adequate assumption for our applications. This significantly reduced computation time compared to the fine mesh and contacts needed when simulating an entire bolt and allowed for faster design iteration. The force vectors at each end of the 1D beam element were probed and exported in tabular format. These were then put into a spreadsheet that estimated the stress in each bolt with a couple of hand calculations. Given the massive factors of safety seen on these bolts (>20), it wasn't necessary to mesh and simulate the bolts in full.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -43,7 +43,7 @@ The system's hardware was simulated as 1D beam elements, with material and diame
     Hand calculations used to estimate the FOS of our hardware
 </div>
 
-The above equations were used to estimate tensile and shear stress in the bolts based on the force results given by ANSYS. The maximum shear stress (σ<sub>s</sub>) was estimated to be 0.577 * maximum tensile stress (σ<sub>t</sub>) based on an approximation from Shigley's Mechanical Engineering Design. The shear and tensile stress were compared to these values to obtain a factor of safety (FOS). The bearing area stress was also calculated by probing each bearing joint and using hand calculations shown above. Overall, the FOS on all of the hardware was far above the require FOS of 3.
+The above equations were used to estimate tensile and shear stress in the bolts based on the force results given by ANSYS. The maximum shear stress (σ<sub>s</sub>) was estimated to be 0.577 * maximum tensile stress (σ<sub>t</sub>) based on an approximation from [Shigley's Mechanical Engineering Design](https://www.mheducation.com/highered/product/shigleys-mechanical-engineering-design-nisbett.html?viewOption=student). The shear and tensile stress were compared to these values to obtain a factor of safety (FOS). The bearing area stress was also calculated by probing each bearing joint and using hand calculations shown above. Overall, the FOS on all of the hardware was far above the required FOS of 3.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">

@@ -18,7 +18,7 @@ An optical engineer in the beamlines group at the Laboratory for Laser Energetic
     Lift assist options
 </div>
 
-I started by thinking about a few different ways to assist in lifting. All of were mocked up in CAD and I ended up choosing to use a constant force spring. This option had a very low profile and met all of the requirements.
+I started by thinking about a few different ways to assist in lifting. All of were mocked up in CAD and tested for interference. Given all of the beams propogating in the area and walkways that had to remain clear, the space taken up was a big concern. I ended up choosing to use a constant force spring because of its low profile.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -33,8 +33,8 @@ I started by thinking about a few different ways to assist in lifting. All of we
 </div>
 
 Having never worked with constant force springs before, I wanted to make a quick prototype as a proof of concept before the full design. A weaker spring was ordered and combined with an existing rail as well as some simple new parts. Two things were learned from this setup: <br>
-1. The inner diameter of the spring changes as it unravels. This causes the spring to catch on the OD of the rod as it unravels. <br>
-2. Allowing the rod to freely rotate provides much smoother motion that forcing the spring to slip along the rod. The rod was mounted on ball bearings for the final design.
+1. The inner diameter of the spring shrinks as it unravels. This causes the spring to catch on the OD of the rod as it unravels. <br>
+2. Allowing the rod to freely rotate provides much smoother motion than forcing the spring to slip along the rod. I tested this by mounting the rod on shoulder bolts. In the final design, the rod was mounting on ball bearings.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -54,7 +54,7 @@ Having never worked with constant force springs before, I wanted to make a quick
     Rails and spring assembly
 </div>
 
-The images above show some of the key features in the design. The two constant force springs are mounted on the fixed fram (orange). When the calorimeter is lowered, the springs are encased within C channel as a protection mechanism for the stored energy if it were to somehow be released. An enclosure also covers the top of the springs for the same reason. Two quick release pins hold the carriage at the top of its travel and provide an extra safety measure at the bottom of travel. The entire carriage slides along two ball bearing rails. At the top of travel, the entire top plate of the carriage can rotate on "magic" washers to match the orientation of the nest that it slides onto. PTFE pads underneath the sliding components make the sliding motion smooth and unlikely to catch on anything. As mentioned in the prototype images, the constant force springs roll along a set of ball bearings for smoother motion. Various lightweighting pockets were placed in the carriage to achieve the proper force balance.
+The images above show some of the key features in the design. The two constant force springs are mounted on the fixed frame (orange). When the calorimeter is lowered, the extended springs are encased within C channel as a protection mechanism for the stored energy if it were to somehow be released. An enclosure also covers the top of the springs for the same reason. Two quick release pins hold the carriage at the top of its travel and provide an extra safety measure at the bottom of travel. The entire carriage slides along two ball bearing rails. At the top of travel, the entire top plate of the carriage can rotate on "magic" washers to match the orientation of the nest that it slides onto. PTFE pads underneath the sliding components make the sliding motion smooth and unlikely to catch on anything. As mentioned in the prototype images, the constant force springs roll along a set of ball bearings for smoother motion. Various lightweighting pockets were placed in the carriage to achieve the proper force balance.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -82,4 +82,4 @@ The images above show the three stages of use for the lift assist mechanism. Mos
     Installed lift assist being raised and lowered (sped up)
 </div>
 
-After a few weeks in the manufacturing queue, the mechnism was machined and installed. A few  quality of life changes were made such as mitigating a pinching hazard and making the lift handle larger. Overall, the design was met with positive feedback from the users. Through this project, I learned about proper press fit tolerancing, customer communication, and safe design. I also got a lot more comfortable with drafting efficiently with GD&T due to the dozens of custom parts in this project.
+After a few weeks in the manufacturing queue, the mechnism was machined and installed. A few  quality of life changes were made, such as mitigating a pinching hazard and making the lift handle larger. Overall, the design was met with positive feedback from the users. Through this project, I learned about proper press fit tolerancing, customer communication, and safe design. I also got a lot more comfortable with drafting efficiently with GD&T due to the dozens of custom parts in this project.

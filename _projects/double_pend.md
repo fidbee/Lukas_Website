@@ -47,7 +47,7 @@ I chose to use a mechanics (sum force & moments) approach to solve for the angul
     Expressions for the angular acceleration of each link that were spit out by MATLAB. It's possible that some of this trig could be simplified in ways that MATLAB doesn't recognize.
 </div>
 
-Despite how complicated this looks, it did look about how you would expect when simulated. I used the ode45 numerical integration routine to calculate linkages positions over time given teh expressions for acceleration. Additionally, the energy of the system is conserved over time, which is a good sign. The simulated linkages were then compared to experimental results.
+Despite how complicated this looks, it did look about how you would expect when simulated. I used the ode45 numerical integration routine to calculate linkages positions over time given the expressions for acceleration. Additionally, the energy of the system is conserved over time, which is a good sign. The simulated linkages were then compared to experimental results.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -67,4 +67,4 @@ Despite how complicated this looks, it did look about how you would expect when 
     A comparison between experimental and simulated data
 </div>
 
-Overall the model had pretty good correlation with the experimental data. Error bars are generated theoretical data based on a Monte Carlo simulation where the uncertainty of each parameter (mass, lengths, starting angle, etc.) was taken into account. Experimental uncertainty was measured based on the standard deviation over multiple trials. The location of the second linkage especially deviates with the theoretical model over time. This is probably because of the frictionless bearing assumption in the model.
+Overall the model had pretty good correlation with the experimental data. Error bars are generated theoretical data based on a Monte Carlo simulation, where the uncertainty of each parameter (mass, lengths, starting angle, etc.) was taken into account. Experimental uncertainty was measured based on the standard deviation over multiple trials. The location of the second linkage especially deviates with the theoretical model over time. This is probably because of the frictionless bearing assumption in the model.

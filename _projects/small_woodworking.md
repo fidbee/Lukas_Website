@@ -8,7 +8,7 @@ category: Woodworking
 related_publications: false
 ---
 
-Various smaller projects I've made. I would try to make something every time I went back home for the holidays in college.
+Various smaller projects I've made. I try to make something new every time I went back home for the a few days in college.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -19,7 +19,7 @@ Various smaller projects I've made. I would try to make something every time I w
     Ring toss game
 </div>
 
-in this bar game you try to toss a ring onto the hook. Every time you get it, you move the token/shot glass one closer to your opponent's side. You win once you move the token off of the track.
+In this bar game you try to toss a ring onto the hook. Every time you get it, you move the token / shot glass one spot closer to your opponent's side. You win once you move the token off of the track.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -30,7 +30,7 @@ in this bar game you try to toss a ring onto the hook. Every time you get it, yo
     Coaster drying
 </div>
 
-I made a few coasters for some of my friends in college. I used the roundest piece of firewood I could find, cut it into slices on the table saw, sanded it, and coated it in polyurethane. Surprisingly, the bark stayed on throughout the process, which gave the finished product a pretty sleek look.
+I made a few coasters for some of my friends in college. I used the roundest piece of firewood I could find, cut it into slices on the table saw, sanded it, and coated it in polyurethane. Surprisingly, the bark stayed on throughout the process for some of these, which gave the finished coaster a pretty sweet look.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">

@@ -20,15 +20,15 @@ related_publications: false
     Before and after of my new desk
 </div>
 
-During COVID lockdown, I was upset with my tiny wooden desk and decided to build a new one with the table saw and sander I had access to at home. The top consists of a plywood backing with 6 maple planks screwed and glued on top, resulting in a pretty large 5ft x 2.83ft desk surface. A large drawer is held in place on two rails that are screwed into the bottom of the desk surface.
+During COVID lockdown, I was upset with my tiny wooden desk and decided to build a new one with the table saw and belt sander I had access to. The top consists of a plywood backing with 6 maple planks on top (screwed and glued in from the bottom). This results in a pretty large 5ft x 2.83ft desk surface. A large drawer is held in place on two rails that are screwed into the bottom of the desk surface with some steel L brackets.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/projects/chime_machine/desk_disassembled.jpg" title="desk_disassembled" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/projects/desk/desk_disassembled.jpg" title="desk_disassembled" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Disassembled desk when moving to college. The corner brackets are my attempt at a new type of screw leg that ended up being too wobbly.
+    Disassembled desk when moving to college. The corner brackets are my attempt at a new type of off-the-shelf screw on leg that ended up being too wobbly.
 </div>
 
 <div class="row">

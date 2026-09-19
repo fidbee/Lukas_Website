@@ -8,7 +8,7 @@ importance: 3
 category: Other
 ---
 
-During my first summer at RIT I did research in the lab of Dr. Ivan Puchades at RIT. My project focussed on characterizing the sensitivity of existing MEMS viscometers. These sensors could provide a much more compact and portable measurement compared to traditional viscometers. This project involved the creation of a new test setup to improve signal quality as well as the testing of five different types of sensors at various viscosities to characterize their performance. Some of the data I took on my new setup was also used in a [published paper](https://www.researchgate.net/publication/377943706_Waterproofing_a_Thermally_Actuated_Vibrational_MEMS_Viscosity_Sensor).
+During my first summer at RIT I did research in the lab of Dr. Ivan Puchades at RIT. My project focussed on characterizing the sensitivity of existing MEMS viscometers. These sensors could provide a much more compact and portable measurement compared to traditional viscometers. This has potential applications in the active monitoring of oil health in engines. This project involved the creation of a new test setup to improve signal quality as well as the testing of five different types of sensors at various viscosities to characterize their performance. Some of the data I took on my new setup was also used in a [published paper](https://www.researchgate.net/publication/377943706_Waterproofing_a_Thermally_Actuated_Vibrational_MEMS_Viscosity_Sensor).
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -36,7 +36,7 @@ The sensors are actuated by a central heater controlled by pulses from a wavefor
     </div>
 </div>
 <div class="caption">
-    Improvement in the consistency of data output on the improved setup
+    Improvement in the consistency of data output on the improved setup. This is output from the same sensor in the same conditions.
 </div>
 
 <div class="row">
@@ -48,7 +48,7 @@ The sensors are actuated by a central heater controlled by pulses from a wavefor
     Testing the new setup
 </div>
 
-I made two major improvements to the test setup. The first was the design of a circuit to filter and amplify the output signal. The high pass filtering removed a lot of the low frequency oscillations that caused unwanted spikes in our frequency spectrum. This also helped remove the DC offset seen in the graph above. The second improvement was migrating the setup to a new ossciloscope with a higher sampling rate. Several improvements were made to the LabVIEW setup to accomodate these changes. Overall, the sensors produced a much more consistent output after these changes.
+I made two major improvements to the test setup. The first was the design of a circuit to filter and amplify the output signal. The high pass filtering removed a lot of the low frequency oscillations that caused unwanted spikes in our frequency spectrum. This also helped remove the DC offset seen in the graph above. The second improvement was migrating the setup to a new ossciloscope with a higher sampling rate. Several improvements were made to the LabVIEW setup to accomodate these changes. Overall, the sensors produced a much more consistent output after these changes. The process of creating this set up made me much more comfortable with basic electronic equipment like waveform generators, power supplies, and oscilloscopes. 
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">

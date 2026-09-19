@@ -30,7 +30,7 @@ The two leaflets shown above extend outside of the 6"Ø rocket to provide an inc
     Hand calculations relating torque to applied force in a two bar linkage
 </div>
 
-The two bar linkage system shown above was simulated in order to select an appropriate servo and spring. Based on the free body diagrams above and some trig, an expression for the required servo torque was derived. A few parameters had to be estimated to predict the appropriate drag force. The plate drag coefficient (C<sub>d</sub>) was predicted using a combination of hand calculations, CFD, and experimental data. This number was a point of debate and varied greatly between methods, making it a large source of error. A factor of safety of 3 helps combate these innacuracies. In future iterations of the design, more extensive CFD will try to get a more accurate estimate. Rocket velocity after boost is estimated from OpenRocket simulations and the drag coefficient of the rails was measured experimentally.
+The two bar linkage system shown above was simulated in order to select an appropriate servo and spring. Based on the free body diagrams above and some trig, an expression for the required servo torque was derived. A few parameters had to be estimated to predict the appropriate drag force. The plate drag coefficient (C<sub>d</sub>) was predicted using a combination of hand calculations, CFD, and experimental data. This number was a point of debate and varied greatly between methods, making it a large source of error. A factor of safety of 3 helped combat these innacuracies. In future iterations of the design, more extensive CFD will try to get a more accurate estimate. Rocket velocity after boost is estimated from OpenRocket simulations and the friction coefficient of the rails was measured experimentally.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -78,6 +78,6 @@ Overall, the mechanical design of the 2025-26 apogee control system worked very 
 
 3. Reduction in FOD: The rails and carriages were nearly impossible to move after recovery of the rocket due to the ammount of FOD build up. While this likely accumulated after the flight, adding a smaller rubber seal around the leaflet holes in the tube will help mitigate this. <br>
 
-4. Ease of assembly: A couple of screws were difficult to access and the springs proved to be a pain to assembly. Assembly will be taken more seriously moving forward. <br>
+4. Ease of assembly: A couple of screws were difficult to access and the springs proved to be a pain to assembly. Ease of assembly will be consider more moving forward. <br>
 
-5. The springs will likely to switched to a single torsion spring. This has a much smaller footprint and ultimately what we want is a torsional force. <br>
+5. The springs will likely to switched to a single torsion spring. This has a much smaller footprint and won't need to be reassembled every time the system is maintenanced. <br>
