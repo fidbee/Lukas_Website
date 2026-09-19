@@ -34,7 +34,7 @@ THe design of the mechanism was not too complicated. A stepper motor (w/ a # of 
     </div>
 </div>
 <div class="caption">
-    Current approach to attempting combhinations.
+    Current approach to attempting combinations.
 </div>
 
 There were some interesting challenges when programming the mechanism. It turned out that my Arduino did not have enough storage to store all 4000 combinations of 3 numbers, even when taking steps to optimize how the data was stored. I instead had to generate and overwrite the sequence as it was solving. The approach I went with of locking in the first two numbers and then trying all 10 possible third numbers was effective given the circumstances. If I had a larger processor, I would like to try to find the optimal order to solve a lock to minimze the motion needed. Specifically, there are situations where you don't have to do a full 3 rotations to reset.
