@@ -7,74 +7,64 @@ importance: 3
 category: Other
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/projects/double_pend/pend_anim.gif" title="pend_anim" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Animation of double pendulum model
+</div>
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+As part of one of my mechanical engineering courses I created a theoretical model of a coupled double pendulum. The predicted trajectory of this model was then compared to experimental data.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/projects/double_pend/system_diagram.png" title="system_diagram" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
+    Diagram of system
 </div>
+
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/projects/double_pend/pend_fbds.png" title="pend_fbds" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    This image can also have a caption. It's like magic.
+    Free body diagrams used to obtain acceleration expressions
 </div>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+I chose to use a mechanics (sum force & moments) approach to solve for the angular acceleration of each linkage. This results in 6 linearly independent expressions with 6 unknowns that can be solved for. While an energy based approach may have resulted in simpler expressions, I was using MATLAB to symbolically solve the resultant expressions. In the end, the 6x6 matrix of accelerations and reaction forces spit out the following monster expression for the angular acceleration of each link.
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/projects/double_pend/pend_expressions.png" title="pend_expressions" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
+    Expressions for the angular acceleration of each link that were spit out by MATLAB. It's possible that some of this trig could be simplified in ways that MATLAB doesn't recognize.
 </div>
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+Despite how complicated this looks, it did look about how you would expect when simulated. I used the ode45 numerical integration routine to calculate linkages positions throughout time.Additionally, the energy of the system is conserved over time, which is a good sign. The simulated linkages were compared to experimental results.
 
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/projects/double_pend/tracking.png" title="tracking" class="img-fluid rounded z-depth-1" %}
+    </div>
 </div>
-```
+<div class="caption">
+    A tracking software called Kinovea was used to view get the position of each link over time.
+</div>
 
-{% endraw %}
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/projects/double_pend/theo_vs_exp.png" title="theo_vs_exp" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    A comparison between experimental and simulated data
+</div>
+
+Overall the model had pretty good correlation with the experimental data. Error bars are generated theoretical data based on a Monte Carlo simulation where the uncertainty of each parameter was taken into account. Experimental uncertainty was measured based on the repeatability over multiple trials. The location of the second linkage especially deviates with the theoretical model over time. This is probably because of the frictionless bearing assumption in the model.

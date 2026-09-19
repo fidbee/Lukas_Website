@@ -7,7 +7,7 @@ importance: 4
 category: Other
 ---
 
-Made a chime machine
+In one of my first year engineering courses, I worked with a group of 3 other students to create a chime machine. 
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">

@@ -9,7 +9,14 @@ category: Laboratory for Laser Energetics
 
 An optical engineer in the beamlines group at the Laboratory for Laser Energetics (LLE) requested a mechanism to assist in the lifting of a 35lb calorimeter to ~5.5ft. Not only was this strenuous and challenging for some shorter operators, but the heat generated from a human carrying the calorimeter and lifting it actually let to some measurement inaccuracies (the added insulation mostly mitigated this). The customer asked for a passive assitance mechanism that would reduce the preceived weight to ~5lb. While this project did not involve any extensive analysis, the complexities with space constraints, safety, and accuracy made this a challenge.
 
-IMAGE OF DIFFERENT ASSIST OPTIONS
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/projects/cal_lift/lift_options.jpg" title="lift_options" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Lift assist options
+</div>
 
 I started by thinking about a few different ways to assist in lifting. All of were mocked up in CAD and I ended up choosing to use a constant force spring. This option had a very low profile and met all of the requirements.
 
@@ -75,4 +82,4 @@ The images above show the three stages of use for the lift assist mechanism. Mos
     Installed lift assist being raised and lowered (sped up)
 </div>
 
-After a few months in the manufacturing queue, the mechnism was machined and installed. A few  quality of life changes were made such as mitigating a pinching hazard and making the lift handle larger. Overall, the design was met with positive feedback from the users. Through this project, I learned about proper press fit tolerancing, customer communication, and safe design. I also got a lot more comfortable with drafting efficiently with GD&T due to the dozens of custom parts in this project.
+After a few weeks in the manufacturing queue, the mechnism was machined and installed. A few  quality of life changes were made such as mitigating a pinching hazard and making the lift handle larger. Overall, the design was met with positive feedback from the users. Through this project, I learned about proper press fit tolerancing, customer communication, and safe design. I also got a lot more comfortable with drafting efficiently with GD&T due to the dozens of custom parts in this project.

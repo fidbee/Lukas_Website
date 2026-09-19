@@ -1,6 +1,6 @@
 ---
 layout: page
-title:  CFD on a Computational Computing Cluster
+title:  CFD on a Computing Cluster
 description: This is an active project. I'll update as things progress
 img: assets/img/projects/launch/cfd.jpg
 importance: 3
