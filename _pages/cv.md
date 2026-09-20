@@ -1,6 +1,6 @@
 ---
 layout: cv
-permalink: assets/pdf/resume_sep_2026.pdf
+permalink: assets/pdf/resume_sep_20_2026.pdf
 title: Resume
 nav: true
 nav_order: 3
