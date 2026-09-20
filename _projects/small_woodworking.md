@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Various Small Projects
-description: I made a ring toss game, a wooden puzzle, and some coasters
+description: I made a ring toss game and some coasters
 img: assets/img/projects/small_woodworking/ring_toss.jpg
 importance: 3
 category: Woodworking

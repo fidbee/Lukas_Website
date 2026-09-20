@@ -11,7 +11,7 @@ profile:
   image_width: 500px
   more_info: >
     Rochester, NY
-    <a href="mailto:janderlukas@gmail.com">janderlukas@gmail.com</a>
+    <a href="mailto:janderlukas@gmail.com">janderlukas@gmail.com</a> <br>
     <a href="https://www.linkedin.com/in/lukas-jander-4a0647285">LinkedIn</a>
 
 selected_papers: false # includes a list of papers marked as "selected={true}"

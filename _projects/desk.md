@@ -20,7 +20,7 @@ related_publications: false
     Before and after of my new desk
 </div>
 
-During COVID lockdown, I was upset with my tiny wooden desk and decided to build a new one with the table saw and belt sander I had access to. The top consists of a plywood backing with 6 maple planks on top (screwed and glued in from the bottom). This results in a pretty large 5ft x 2.83ft desk surface. A large drawer is held in place on two rails that are screwed into the bottom of the desk surface with some steel L brackets.
+During COVID lockdown, I was upset with my tiny wooden desk and decided to build a new one with the table saw and belt sander I had access to. The top consists of a plywood backing with 6 maple planks on top (screwed and glued in from the bottom). This results in a pretty large 5ft x 2.83ft desk surface. A drawer is held in place on two rails that are screwed into the bottom of the desk surface with some steel L brackets.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
