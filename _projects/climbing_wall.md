@@ -11,11 +11,14 @@ I spent a couple of weeks during a summer in Rochester rebuilding an unsafe agin
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/projects/climbing_wall/wobbly_panel.gif" title="wobbly_panel" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/projects/climbing_wall/splinter_1.png" title="splinter_1" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/projects/climbing_wall/splinter_2.png" title="splinter_2" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    The previous wall was sagging at several spots.
+    The old wall was splintering and sagging in several spots
 </div>
 
 <div class="row">
