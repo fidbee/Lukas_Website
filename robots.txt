@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://fidbee.github.io/Lukas_Website//Lukas_Website/sitemap.xml
+Sitemap: lukasjander.com/sitemap.xml
