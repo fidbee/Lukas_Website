@@ -85,7 +85,7 @@ The design of the entire assembly was looked at in a variety of load cases. The 
     Right: Animation showing the simulated optical surface through a range of coplanarity (displacement in z) values. A normal distribution of thousands of these deformations were generated and summed to obtain Monte Carlo results.
 </div>
 
-The sensitivity of dimensions on the flexured mount were analyzed using ANSYS + Sigfit Monte Carlo toolbox. Small displacements were applied to each mounting point and the impact on the optical surface was analyzed. Because the displacements at this scale were assumed to be linear, different combinations of mounting point errors can be summed to determine their combined effect. Sigfit automates this process and can provide several performance metrics.
+The sensitivity of dimensions on the flexured mount were analyzed using ANSYS + Sigfit Monte Carlo toolbox. Small displacements were applied to each mounting point and the impact on the optical surface was analyzed. Because the displacements at this scale were assumed to be linear, different combinations of mounting point errors can be summed to determine their combined effect. Sigfit automates this process and can provide several performance metrics. Zernike polynomial fits were also calculated for each type of displacement to see what kinds of deformations are dominant. In all cases, primary astigmatism (n=2, m=2) order(s) of magnitude higher than other terms.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
