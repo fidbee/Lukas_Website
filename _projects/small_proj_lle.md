@@ -62,7 +62,7 @@ I presented a few concepts to the stakeholders. Unfortunately, this was not as s
     Lift bar ANSYS setup
 </div>
 
-To properly select component dimensions and bolt sizes, the assembly was simulated in ANSYS. A load rating of 125lbs (1.25 FOS on max load) was used. The setup was pretty straightforward, with only 1 force applied. The complexity came more in properly model the various bolted connections. Initially, every possible lift bar angle was tested, but, as expected, the most extreme loading angles provided the highest stress. While making changes to the design, only these load cases were looked at for simplicity. 
+To properly select component dimensions and bolt sizes, the assembly was simulated in ANSYS. The max load of 100lbf was used. The setup was pretty straightforward, with only 1 force applied. The complexity came more in properly model the various bolted connections. Initially, every possible lift bar angle was tested, but, as expected, the most extreme loading angles provided the highest stress. While making changes to the design, only these load cases were looked at for simplicity. 
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -95,7 +95,7 @@ Through this project, I learned a ton about what goes into a bolted connection. 
     Overview of the nitrogen bubbling tank
 </div>
 
-As one of my earlier projects at the lab, I designed the tank pictured in the image here. In short, the Tritium Science group requested a device to bubble nitrogen gas through a bath of water and output a combination of water vaport and nitrogen ("wet nitrogen"). This is used upstream for various experiments relating to removing tritium contamination from water. Tritium is used as a fuel source during the fusion reactions performed at the lab.
+For one of my earlier projects at the lab, I designed the tank pictured in the image here. In short, the Tritium Science group requested a device to bubble nitrogen gas through a bath of water and output a combination of water vapor and nitrogen ("wet nitrogen"). This is used upstream for various experiments relating to removing tritium contamination from water. Tritium is used as a fuel source during the fusion reactions performed at the lab.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
