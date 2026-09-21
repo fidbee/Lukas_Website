@@ -305,6 +305,11 @@ defaults:
     values:
       sitemap: false
 
+assets:
+  sources:
+    - assets
+
+
 sass:
   style: compressed
 
