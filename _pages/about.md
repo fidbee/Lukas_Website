@@ -10,7 +10,6 @@ profile:
   image_circular: true # crops the image to make it circular
   image_width: 500px
   more_info: >
-    Rochester, NY
     <a href="mailto:janderlukas@gmail.com">janderlukas@gmail.com</a> <br>
     <a href="https://www.linkedin.com/in/lukas-jander-4a0647285">LinkedIn</a>
 
