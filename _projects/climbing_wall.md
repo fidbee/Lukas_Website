@@ -7,7 +7,7 @@ importance: 1
 category: Woodworking
 ---
 
-I spent a couple of weeks during a summer in Rochester rebuilding an unsafe aging climbing wall with two of my coworkers at the climbing gym. The panels were deflecting several inches when people hung on them and the wood was beginning to splinter. After taking off all of the panels, it was clear that the entire structure supporting the wall would also have to be replaced, not just the panels.
+I spent a couple of weeks during a summer in Rochester rebuilding an unsafe aging climbing wall with two of my coworkers at the climbing gym. The gym is located in a dairy barn that's over 100 years old, but the walls themselves are only about 5-30 years old, depending on the section. The panels were deflecting several inches when people hung on them and the wood was beginning to splinter. After taking off all of the panels, it was clear that the entire structure supporting the wall would also have to be replaced, not just the panels.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
