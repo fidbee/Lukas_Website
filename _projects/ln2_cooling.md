@@ -3,7 +3,7 @@ layout: page
 title: Argon Gas Cooling Using Liquid Nitrogen
 description: Analysis and simulation of a mechanism to cool argon gas.
 img: assets/img/projects/ln2_cooling/liquid_nitrogen_pour.jpg
-importance: 3
+importance: 2
 category: Laboratory for Laser Energetics
 ---
 
