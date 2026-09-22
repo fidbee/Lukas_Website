@@ -7,7 +7,7 @@ importance: 3
 category: Laboratory for Laser Energetics
 ---
 
-An optical engineer in the beamlines group at the Laboratory for Laser Energetics (LLE) requested a mechanism to assist in the lifting of a 35lb calorimeter to ~5.5ft. Not only was this strenuous and challenging for some shorter operators, but the heat generated from a human carrying the calorimeter and lifting it actually let to some measurement inaccuracies (the added insulation mostly mitigated this). The customer asked for a passive assitance mechanism that would reduce the preceived weight to ~5lb. While this project did not involve any extensive analysis, the complexities with space constraints, safety, and accuracy made this a challenge.
+An optical engineer in the beamlines group at the Laboratory for Laser Energetics (LLE) requested a mechanism to assist in the lifting of a 35lb calorimeter to ~5.5ft. Not only was this strenuous and challenging for some shorter operators, but the heat generated from a human carrying the calorimeter and lifting it actually led to some measurement inaccuracies (the added insulation mostly mitigated this). The customer asked for a passive assistance mechanism that would reduce the perceived weight to ~5lb. While this project did not involve any extensive analysis, the complexities with space constraints, safety, and accuracy made this a challenge.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -18,7 +18,7 @@ An optical engineer in the beamlines group at the Laboratory for Laser Energetic
     Lift assist options
 </div>
 
-I started by thinking about a few different ways to assist in lifting. All of were mocked up in CAD and tested for interference. Given all of the beams propogating in the area and walkways that had to remain clear, the space taken up was a big concern. I ended up choosing to use a constant force spring because of its low profile.
+I started by thinking about a few different ways to assist in lifting. All of were mocked up in CAD and tested for interference. Given all of the beams propagating in the area and walkways that had to remain clear, the space taken up was a big concern. I ended up choosing to use a constant force spring because of its low profile.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -34,7 +34,7 @@ I started by thinking about a few different ways to assist in lifting. All of we
 
 Having never worked with constant force springs before, I wanted to make a quick prototype as a proof of concept before the full design. A weaker spring was ordered and combined with an existing rail as well as some simple new parts. Two things were learned from this setup: <br>
 1. The inner diameter of the spring shrinks as it unravels. This causes the spring to catch on the OD of the rod as it unravels. <br>
-2. Allowing the rod to freely rotate provides much smoother motion than forcing the spring to slip along the rod. I tested this by mounting the rod on shoulder bolts. In the final design, the rod was mounting on ball bearings.
+2. Allowing the rod to freely rotate provides much smoother motion than forcing the spring to slip along the rod. I tested this by mounting the rod on shoulder bolts. In the final design, the rod was mounted on ball bearings.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -68,7 +68,7 @@ The images above show some of the key features in the design. The two constant f
     </div>
 </div>
 
-The images above show the three stages of use for the lift assist mechanism. Most of the time, its stored in its downward position. When used, it's raised along the rails, pushed into place, and alligned to the beam. 
+The images above show the three stages of use for the lift assist mechanism. Most of the time, it's stored in its downward position. When used, it's raised along the rails, pushed into place, and aligned to the beam. 
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -82,4 +82,4 @@ The images above show the three stages of use for the lift assist mechanism. Mos
     Installed lift assist being raised and lowered (sped up)
 </div>
 
-After a few weeks in the manufacturing queue, the mechnism was machined and installed. A few  quality of life changes were made, such as mitigating a pinching hazard and making the lift handle larger. Overall, the design was met with positive feedback from the users. Through this project, I learned about proper press fit tolerancing, customer communication, and safe design. I also got a lot more comfortable with drafting efficiently with GD&T due to the dozens of custom parts in this project.
+After a few weeks in the manufacturing queue, the mechanism was machined and installed. A few quality of life changes were made, such as mitigating a pinching hazard and making the lift handle larger. Overall, the design was met with positive feedback from the users. Through this project, I learned about proper press fit tolerancing, customer communication, and safe design. I also got a lot more comfortable with drafting efficiently with GD&T due to the dozens of custom parts in this project.

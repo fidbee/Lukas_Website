@@ -5,7 +5,7 @@ permalink: /projects/
 description: Various things I've been a part of over the last few years.
 nav: true
 nav_order: 2
-display_categories: [Laboratory for Laser Energetics, RIT Competetive Rocketry Team, Other, Woodworking]
+display_categories: [Laboratory for Laser Energetics, RIT Competitive Rocketry Team, Other, Woodworking]
 horizontal: false
 ---
 

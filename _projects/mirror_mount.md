@@ -8,7 +8,7 @@ category: Laboratory for Laser Energetics
 related_publications: false
 ---
 
-During my last block at the Laboratory for Laser Energetics, I was tasked with the design and analysis of a 3DOF mirror mount for a lightweight, off-axis, elliptical, THz mirror. Upstream optics could control another 2DOF. While the design of the mirror itself was mostly fixed in the state a previous employee left it in, I had a lot of freedom in how I could accurately hold and manipulate this experimental mirror. Inspiration for this design and some of the corresponding analysis came from: [Integrated Optomechanical Analysis (2nd Ed.)](https://www.spiedigitallibrary.org/ebooks/PM/Integrated-Optomechanical-Analysis-Second-Edition/eISBN-9780819492494/10.1117/3.974624). Feel free to email me for any questions and more detailed presentations.
+During my last block at the Laboratory for Laser Energetics, I was tasked with the design and analysis of a 3 degree of freedom (DOF) mirror mount for a lightweight, off-axis, elliptical, THz mirror. Upstream optics could control another 2DOF. While the design of the mirror itself was mostly fixed in the state a previous employee left it in, I had a lot of freedom in how I could accurately hold and manipulate this experimental mirror. Inspiration for this design and some of the corresponding analysis came from: [Integrated Optomechanical Analysis (2nd Ed.)](https://www.spiedigitallibrary.org/ebooks/PM/Integrated-Optomechanical-Analysis-Second-Edition/eISBN-9780819492494/10.1117/3.974624). Feel free to email me for any questions and more detailed presentations.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -19,7 +19,7 @@ During my last block at the Laboratory for Laser Energetics, I was tasked with t
     The virtual intersection point of each flexure pair intersects with the plane of the CG to minimize moment loads in the mirror.
 </div>
 
-I decided to go with a bipod rod flexure based design to hold the back of the mirror. The six thin flexures act as single force members to constrain the six degrees of freedom and avoid overconstraint. Because of the flexibility of the flexures, small locational innacuracies in mounting points do not cause significant deformation of the optical surface. One end of each flexure is threaded into the mirror while the other is epoxied in place at its mounting point. A custom fixture was developed to hold the mirror in its neutral state while the epoxy cured. This minimized any pre-stress that might be imposed on the mirror during assembly. 
+I decided to go with a bipod rod flexure based design to hold the back of the mirror. The six thin flexures act as single force members to constrain the six degrees of freedom and avoid overconstraint. Because of the flexibility of the flexures, small locational inacuracies in mounting points do not cause significant deformation of the optical surface. One end of each flexure is threaded into the mirror while the other is epoxied in place at its mounting point. A custom fixture was developed to hold the mirror in its neutral state while the epoxy cured. This minimized any pre-stress that might be imposed on the mirror during assembly. 
 
 <div class="row">
     <div class="col-md-4 mt-3 mt-md-0 mx-auto">
@@ -50,7 +50,7 @@ To determine flexure material, dimensions and mounting locations, I ran several 
     The full design of the mirror. The yellow rod flexures constrain the mirror to only move in the desired DOF controlled by the actuators (tip, tilt, piston).
 </div>
 
-Instead of a traiditional cone, vee, flat kinematic mount, I again went with a flexure mechanism (which constrains the same degrees of freedom). This eliminates the lateral load placed on the actuators and instead places the weight of the mirror on the flexures. Because the actuators push on three flats, this design also minimizes the contact friction of the rotating actuators on their kinematic nests. This approach has the potential downside of decreased initial locational accuracy, but, given the experimental nature of this design, it was an appropriate choice. I used a similar parameter-based simulation to determine the dimensions and material of these flexures. The manual actuators allow for ~10mm piston, and ~±2.25° tip/tilt at 0.143°/rev resolution. The buckling strength of each flexure was verified with hand calculations.
+Instead of a traditional cone, vee, flat kinematic mount, I again went with a flexure mechanism (which constrains the same degrees of freedom). This eliminates the lateral load placed on the actuators and instead places the weight of the mirror on the flexures. Because the actuators push on three flats, this design also minimizes the contact friction of the rotating actuators on their kinematic nests. This approach has the potential downside of decreased initial locational accuracy, but, given the experimental nature of this design, it was an appropriate choice. I used a similar parameter-based simulation to determine the dimensions and material of these flexures. The manual actuators allow for ~10mm piston, and ~±2.25° tip/tilt at 0.143°/rev resolution. The buckling strength of each flexure was verified with hand calculations.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -70,7 +70,7 @@ Instead of a traiditional cone, vee, flat kinematic mount, I again went with a f
     OSLO raytracing results of the mirror deformed under 1g lateral sag at a 6THz frequency.
 </div>
 
-The design of the entire assembly was looked at in a variety of load cases. The nodal results from ANSYS were again exported to Sigfit to remove rigid body motion. The deformed optic was then run through a raytracing simulation in OSLO at a variety of wavelengths to determine at what point diffraction limited performance is achieved. The example above shows the simulated performance of the mirror under 1g lateral sag. At the expected 6THz (λ = 50µm) frequency, the performance of the mirror is diffraction limitted. Nevertheless, machining and other error accumulation will certainly change the wavelength at which performance is diffraction limited. Vibrational and thermal analyses were also conducted at this stage. Small changes were made to raise the 1st natural frequency. The temperature changes in the room where the mirror will be used was measured and determined to be a small source of error compared to other factors.
+The design of the entire assembly was looked at in a variety of load cases. The nodal results from ANSYS were again exported to Sigfit to remove rigid body motion. The deformed optic was then run through a raytracing simulation in OSLO at a variety of wavelengths to determine at what point diffraction limited performance is achieved. The example above shows the simulated performance of the mirror under 1g lateral sag. At the expected 6THz (λ = 50µm) frequency, the performance of the mirror is diffraction limited. Nevertheless, machining and other error accumulation will certainly change the wavelength at which performance is diffraction limited. Vibrational and thermal analyses were also conducted at this stage. Small changes were made to raise the 1st natural frequency. The temperature changes in the room where the mirror will be used were measured and determined to be a small source of error compared to other factors.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -96,7 +96,7 @@ The sensitivity of dimensions on the flexured mount were analyzed using ANSYS + 
     Different disturbances were applied to each mounting point to simulate the flatness of the mounting components. Rotation about the X axis has by far the largest impact. This is expected when considering the geometry of the flexures and the axes in which it is stiff and flexible.
 </div>
 
-A normal distribution was assumed for each displacement and thousands of different combinations of displacements were summed. The optical surface RMS was then extracted from each simulation and graphed below. This shows us the probability that a certain surface RMS can be achieved based on the flatness and locational tolerance of the flexure mounting points. It demonstrates that the flexured design is behaving as expected; where small locational innacuracies do not contribute significantly to surface deformation. As a point of comparison, I also ran the same simulation except without the flexures. This is akin to just bolting a rigid plate to the back of the mirror. As expected, the surface deformations are orders of magnitude higher if you were to go with this approach.
+A normal distribution was assumed for each displacement and thousands of different combinations of displacements were summed. The optical surface RMS was then extracted from each simulation and graphed below. This shows us the probability that a certain surface RMS can be achieved based on the flatness and locational tolerance of the flexure mounting points. It demonstrates that the flexured design is behaving as expected; where small locational inacuracies do not contribute significantly to surface deformation. As a point of comparison, I also ran the same simulation except without the flexures. This is akin to just bolting a rigid plate to the back of the mirror. As expected, the surface deformations are orders of magnitude higher if you were to go with this approach.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -111,15 +111,15 @@ Overall this was my favorite project I had the chance to work on at LLE. I great
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/projects/mirror_mount/allignment_feature.jpg" title="allignment_feature" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/projects/mirror_mount/allignment_feature.jpg" title="alignment_feature" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/projects/mirror_mount/assembly_fixture.png" title="assembly_fixture" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Left: Two different inserts were used for allignment of the mirror using a low power visible light beam. These proved to be very difficult to tolerance to get appropriate pointing accuracy. <br>
-    Right: The assembly fixture for epoxying flexures in place involved a wiffle tree structure to minimize stresses placed on the mirror. The fixture is bolted to an optical table during curing.
+    Left: Two different inserts were used for alignment of the mirror using a low power visible light beam. These proved to be very difficult to tolerance properly to get appropriate pointing accuracy. <br>
+    Right: The assembly fixture for epoxying flexures in place involved a whiffletree structure to minimize stresses placed on the mirror. The fixture is bolted to an optical table during curing.
 </div>
 
 <div class="row">

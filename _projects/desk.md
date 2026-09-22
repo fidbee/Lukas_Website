@@ -43,5 +43,5 @@ During COVID lockdown, I was upset with my tiny wooden desk and decided to build
     My first time welding. Not great.
 </div>
 
-When making the table legs, I also learned to weld for the first time (you can tell). I used some scrap L channel to create brackets to hold the legs. They were designed to be removeable using 4 bolts on each leg. However, when it came time to move the table to college, it was clear that this did not work. The bolts were stuck in place and completely inaccessable. I think I learned a good lesson about accessible design here. I ended up having to unscrew and chip off part of the table just to get them off. I'm gonna get around to a new leg design at some point when I have some free time at home.
+When making the table legs, I also learned to weld for the first time (you can tell). I used some scrap L channel to create brackets to hold the legs. They were designed to be removable using 4 bolts on each leg. However, when it came time to move the table to college, it was clear that this did not work. The bolts were stuck in place and completely inaccessible. I think I learned a good lesson about accessible design here. I ended up having to unscrew and chip off part of the table just to get them off. I'm gonna get around to a new leg design at some point when I have some free time at home.
 

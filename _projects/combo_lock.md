@@ -10,7 +10,7 @@ related_publications: false
 
 Growing up, combination locks in our household would slowly pile up as their combinations were forgotten. Since high school, I had the idea of building a small machine to solve these and recover these locks. I applied to the Dick and St Jane Reeve Student Initiated Project fund at RIT and got selected to receive funding to complete this project.
 
-While there are approaches to lock solving in which you can feel out the first two numbers and guess the last, I found these to be difficult and inconsistent. I wanted my device to open the lock with no user intervention. Originally, I thought that with 40 numbers, there would be 40<sup>3</sup> (64,000) combinations. Luckily this isn't the case. Because of machining tolerance and other factors, there are actually only 4,000 possible combinations for Masterlocks. There's even about a +/-1 window for hitting the correct number when you solve. This made brute forcing every combination a viable approach
+While there are approaches to lock solving in which you can feel out the first two numbers and guess the last, I found these to be difficult and inconsistent. I wanted my device to open the lock with no user intervention. Originally, I thought that with 40 numbers, there would be 40<sup>3</sup> (64,000) combinations. Luckily this isn't the case. Because of machining tolerance and other factors, there are actually only 4,000 possible combinations for Master Locks. There's even about a +/-1 window for hitting the correct number when you solve. This made brute forcing every combination a viable approach.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -37,7 +37,7 @@ The design of the mechanism was not too complicated. A stepper motor (w/ a # of 
     Current approach to attempting combinations.
 </div>
 
-There were some interesting challenges when programming the mechanism. It turned out that my Arduino did not have enough storage to store all 4000 combinations of 3 numbers, even when taking steps to optimize how the data was stored. I instead had to generate and overwrite the sequence as it was solving. The approach I went with of locking in the first two numbers and then trying all 10 possible third numbers was effective given the circumstances. If I had a larger processor, I would like to try to find the optimal order to solve a lock to minimze the motion needed. Specifically, there are situations where you don't have to do a full 3 rotations to reset. I think identifying those situations and choosing the correct order to solve combinations with less rotation first would be a pretty interesting challenge.
+There were some interesting challenges when programming the mechanism. It turned out that my Arduino did not have enough storage to store all 4000 combinations of 3 numbers, even when taking steps to optimize how the data was stored. I instead had to generate and overwrite the sequence as it was solving. The approach I went with of locking in the first two numbers and then trying all 10 possible third numbers was effective given the circumstances. If I had a larger processor, I would like to try to find the optimal order to solve a lock to minimize the motion needed. Specifically, there are situations where you don't have to do a full 3 rotations to reset. I think identifying those situations and choosing the correct order to solve combinations with less rotation first would be a pretty interesting challenge.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -59,4 +59,4 @@ There were some interesting challenges when programming the mechanism. It turned
 
 I've recovered the combinations of all the locks I have sitting around, but I'm still working on this project. There are two major areas for improvement. <br>
 1. The solenoid + beam break sensor setup is very loud and clunky. I'm working on replacing this with just a single servo motor with feedback. By monitoring the current draw, I can tell when the lock is opened, or when a wrong combination was input. <br>
-2. I want to make this device portable and able to be used on a lock that's attached to something. I've begun the design of a custom PCB to fit the device in the enclosure I modeled. Having never made a PCB before, this has been challengeing but nevertheless a good learning experience. I'm also adding an LCD display to show current progress and attempts.
+2. I want to make this device portable and able to be used on a lock that's attached to something. I've begun the design of a custom PCB to fit the device in the enclosure I modeled. Having never made a PCB before, this has been challenging but nevertheless a good learning experience. I'm also adding an LCD display to show current progress and attempts.

@@ -1,10 +1,10 @@
 ---
 layout: page
-title:  CFD on a Computing Cluster
+title: CFD on a Computing Cluster
 description: This is an active project. I'll update as things progress
 img: assets/img/projects/launch/cfd.jpg
 importance: 3
-category: RIT Competetive Rocketry Team
+category: RIT Competitive Rocketry Team
 giscus_comments: false
 ---
 

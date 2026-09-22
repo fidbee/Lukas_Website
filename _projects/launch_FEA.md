@@ -1,16 +1,16 @@
 ---
 layout: page
-title:  FEA of an Apogee Control System
+title: FEA of an Apogee Control System
 description: Structural analysis of airbrakes system during various stages of flight
 img: assets/img/projects/launch/fea_thumbnail.png
 importance: 2
-category: RIT Competetive Rocketry Team
+category: RIT Competitive Rocketry Team
 giscus_comments: false
 ---
 
-See "Mechanical Design of an Apogee Control System" project for an overview of the mechanism being analyzed.
+See "[Mechanical Design of Apogee Control Mechanism](/projects/launch_MECE_design)" project for an overview of the mechanism being analyzed.
 
-To verify the structural integrity of the airbrakes control system, FEA was performed for two  load cases: maximum extension and boost.
+To verify the structural integrity of the airbrakes control system, FEA was performed for two load cases: maximum extension and boost.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -21,7 +21,7 @@ To verify the structural integrity of the airbrakes control system, FEA was perf
     FEA setup during the maximum extension load case
 </div>
 
-This setup essentially has every force at its worst case scenario. The leaftlets are extended all the way out, the servo is pushing with its maximum torque, and the springs are fully extended. The system is constrained by the bulkhead epoxied in place on the booster tube. The carriage extension is constrained by two delrin hard stops (not seen here). The bearings were modeled as generic joints with the appropriate degrees of freedom constrained/free.
+This setup essentially has every force at its worst case scenario. The leaflets are extended all the way out, the servo is pushing with its maximum torque, and the springs are fully extended. The system is constrained by the bulkhead epoxied in place on the booster tube. The carriage extension is constrained by two delrin hard stops (not seen here). The bearings were modeled as generic joints with the appropriate degrees of freedom constrained/free.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
