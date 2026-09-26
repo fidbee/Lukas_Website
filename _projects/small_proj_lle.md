@@ -2,7 +2,7 @@
 layout: page
 title: Various Smaller Projects
 description: Shorter term projects I worked on
-img: assets/img/projects/misc_lle/misc_lle_thumbnail.png
+img: assets/img/projects/misc_lle/old_rigging_fixture.jpg
 importance: 4
 category: Laboratory for Laser Energetics
 ---
