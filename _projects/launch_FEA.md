@@ -1,6 +1,6 @@
 ---
 layout: page
-title: FEA of an Apogee Control System
+title: FEA of an Apogee Control Mechanism
 description: Structural analysis of airbrakes system during various stages of flight
 img: assets/img/projects/launch/fea_thumbnail.png
 importance: 2
