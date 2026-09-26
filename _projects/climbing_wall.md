@@ -25,7 +25,11 @@ I spent a couple of weeks during a summer in Rochester rebuilding an unsafe agin
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/projects/climbing_wall/construction_progress.jpeg" title="construction_progress" class="img-fluid rounded z-depth-1" %}
     </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/projects/climbing_wall/old_wall_removed.jpeg" title="old_wall_removed" class="img-fluid rounded z-depth-1" %}
+    </div>
 </div>
+
 <div class="caption">
     Taking down the old wall
 </div>
