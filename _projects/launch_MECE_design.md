@@ -8,7 +8,7 @@ category: RIT Competitive Rocketry Team
 giscus_comments: false
 ---
 
-As part of the IREC rocketry competition, one of the things that will earn you the most points is getting as close as possible to your target apogee. The team at RIT competes in the 10k COTS category, meaning that we target an apogee of 10,000 feet. For the 2025-26 rocket, the team attempted to add an active apogee control mechanism to the rocket for the first time. The plan was to select a motor that would intentionally overshoot the apogee target and adjust the drag of the rocket after boost to hit the apogee just right.
+As part of the IREC rocketry competition, one of the things that will earn you the most points is getting as close as possible to your target apogee. The team at RIT competes in the 10k COTS category, meaning that we target an apogee of 10,000 feet. For the 2025-26 rocket, the team attempted to add an active apogee control mechanism to the rocket for the first time. The plan was to select a motor that would intentionally overshoot the apogee target and adjust the drag of the rocket after boost to hit the apogee just right. This was first implemented on our 2025-26 rocket, where we achieved an apogee of 9819ft (1.79% error), the closest the team has ever gotten.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">

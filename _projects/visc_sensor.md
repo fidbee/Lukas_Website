@@ -8,7 +8,7 @@ importance: 3
 category: Other
 ---
 
-During my first summer at RIT, I did research in the lab of Dr. Ivan Puchades at RIT. My project focused on characterizing the sensitivity of existing MEMS viscometers. These sensors could provide a much more compact and portable measurement compared to traditional viscometers. This has potential applications in the active monitoring of oil health in engines. This project involved the creation of a new test setup to improve signal quality as well as the testing of five different types of sensors at various viscosities to characterize their performance. Some of the data I took on my new setup was also used in a [published paper](https://www.researchgate.net/publication/377943706_Waterproofing_a_Thermally_Actuated_Vibrational_MEMS_Viscosity_Sensor).
+During my first summer at RIT, I did research in the lab of Dr. Ivan Puchades at RIT. My project focused on characterizing the sensitivity of existing MEMS viscometers. These sensors could provide a much more compact and portable measurement compared to traditional viscometers, which has potential applications in the active monitoring of oil health in engines. This project involved the creation of a new test setup to improve signal quality as well as the testing of five different types of sensors at various viscosities to characterize their performance. Some of the data I took on my new setup was also used in a [published paper](https://www.researchgate.net/publication/377943706_Waterproofing_a_Thermally_Actuated_Vibrational_MEMS_Viscosity_Sensor).
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">

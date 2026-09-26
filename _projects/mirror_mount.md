@@ -8,7 +8,7 @@ category: Laboratory for Laser Energetics
 related_publications: false
 ---
 
-During my last block at the Laboratory for Laser Energetics, I was tasked with the design and analysis of a 3 degree of freedom (DOF) mirror mount for a lightweight, off-axis, elliptical, THz mirror. Upstream optics could control another 2DOF. While the design of the mirror itself was mostly fixed in the state a previous employee left it in, I had a lot of freedom in how I could accurately hold and manipulate this experimental mirror. Inspiration for this design and some of the corresponding analysis came from: [Integrated Optomechanical Analysis (2nd Ed.)](https://www.spiedigitallibrary.org/ebooks/PM/Integrated-Optomechanical-Analysis-Second-Edition/eISBN-9780819492494/10.1117/3.974624). Feel free to email me for any questions and more detailed presentations.
+During my last block at the Laboratory for Laser Energetics, I was tasked with the design and analysis of a 3 degree of freedom (DOF) mirror mount for a lightweight, off-axis, elliptical, THz mirror. Upstream optics could control another 2DOF. This mirror is replacing an existing system of two off-axis parabolic mirrors and the new elliptical geometry is predicted to achieve a more uniform irradiance distribution. This is used in the THz research group to study new ways of generating and controlling the properties of THz radiation. While the design of the mirror itself was mostly fixed in the state a previous employee left it in, I had a lot of freedom in how I could accurately hold and manipulate this experimental mirror. Inspiration for this design and some of the corresponding analysis came from: [Integrated Optomechanical Analysis (2nd Ed.)](https://www.spiedigitallibrary.org/ebooks/PM/Integrated-Optomechanical-Analysis-Second-Edition/eISBN-9780819492494/10.1117/3.974624). Feel free to email me with any questions and for more detailed presentations.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -27,7 +27,7 @@ I decided to go with a bipod rod flexure based design to hold the back of the mi
     </div>
 </div>
 <div class="caption">
-    I used beam elements to simulate flexure behaviour in ANSYS. This saved tens of thousands of elements and allowed much faster design iteration at nearly identical performance. Being able to change the flexure diameter without remeshing the entire model was key here.
+    I used 1D beam elements to simulate flexure behaviour in ANSYS. This saved tens of thousands of elements and allowed much faster design iteration at nearly identical performance. Being able to change the flexure diameter without remeshing the entire model was key here.
 </div>
 
 <div class="row">
@@ -50,7 +50,7 @@ To determine flexure material, dimensions and mounting locations, I ran several 
     The full design of the mirror. The yellow rod flexures constrain the mirror to only move in the desired DOF controlled by the actuators (tip, tilt, piston).
 </div>
 
-Instead of a traditional cone, vee, flat kinematic mount, I again went with a flexure mechanism (which constrains the same degrees of freedom). This eliminates the lateral load placed on the actuators and instead places the weight of the mirror on the flexures. Because the actuators push on three flats, this design also minimizes the contact friction of the rotating actuators on their kinematic nests. This approach has the potential downside of decreased initial locational accuracy, but, given the experimental nature of this design, it was an appropriate choice. I used a similar parameter-based simulation to determine the dimensions and material of these flexures. The manual actuators allow for ~10mm piston, and ~±2.25° tip/tilt at 0.143°/rev resolution. The buckling strength of each flexure was verified with hand calculations.
+Instead of a traditional cone, vee, flat kinematic mount, I again went with a flexure mechanism (which constrains the same degrees of freedom). This eliminates the lateral load placed on the actuators and instead places the weight of the mirror on the flexures. Because the actuators push on three flats, this design also minimizes the contact friction of the rotating actuators on their kinematic nests. This approach has the potential downside of decreased initial locational accuracy, but, given the experimental nature of this design, it was an appropriate choice. I used a similar parameter-based simulation to determine the dimensions and material of these flexures. In this case, springs were still needed to preload the actuators as the deformed flexures would not provide enough force. A separate parametric ANSYS study was done to determine the minimum and maximum spring constant required for the predicted extension. The manual actuators allow for ~10mm piston, and ~±2.25° tip/tilt at 0.143°/rev resolution. The buckling strength of each flexure was verified with hand calculations.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
