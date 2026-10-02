@@ -58,7 +58,7 @@ After taking down and discarding all previous panels and structure, we got to wo
     Right: Sanding
 </div>
 
-We had about 575 ft<sup>2</sup> of wall to cover and we spent several weeks cutting, sanding, and coating the panels. Each panel had a unique shape to accommodate the geometry of the wall and ensure a good fit. Additionally, each panel needed several dozen T-nuts installed to attach climbing holds to the wall. This was by far the longest and most labor intensive part of the project.
+We had about 575 ft<sup>2</sup> of wall to cover and we spent several weeks cutting, sanding, and applying two coats of clear coat the panels. Each panel had a unique shape to accommodate the geometry of the wall and ensure a good fit. Additionally, each panel needed several dozen T-nuts installed to attach climbing holds to the wall. This was by far the longest and most labor intensive part of the project.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -66,7 +66,16 @@ We had about 575 ft<sup>2</sup> of wall to cover and we spent several weeks cutt
     </div>
 </div>
 <div class="caption">
-    Completed wall
+    The completed all at the end of the summer.
 </div>
 
 With a couple of finishing touches to remove sharp corners, we began assembling the wall. After a few slight tweaks in the panel geometry, we finished just in time for the start of the fall semester.
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/projects/climbing_wall/wall_1_year.jpg" title="wall_1_year" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    The climbing wall after a bit over 1 year of use. The black marks everywhere are from shoe rubber. So far, it's held up with no issues.
+</div>
