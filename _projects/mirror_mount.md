@@ -12,6 +12,15 @@ During my last block at the Laboratory for Laser Energetics, I was tasked with t
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/projects/mirror_mount/elliptical_mirror_definition.png" title="elliptical_mirror_definition" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    This is how the shape of the mirror surface is defined. An ellipse is rotated about its major axis, with the mirror offset from the major axis. This focusses radiation from one focal point to another. One way to imagine this shape is like taking off a patch (blue square) from a football/rugbyball shape.
+</div>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/projects/mirror_mount/flexure_thru_CG.jpg" title="flexure_thru_CG" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
